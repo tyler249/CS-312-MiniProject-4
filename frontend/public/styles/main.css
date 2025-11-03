@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #6a5acd, #00bfff);
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+li {
+  background: white;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+li h2 {
+  margin: 0 0 10px;
+  font-size: 1.6em;
+  color: #444;
+}
+
+li p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+li small {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+}
+
+button, a button {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.2s ease-in-out;
+  margin: 3px;
+}
+
+button:hover, a button:hover {
+  background: #483d8b;
+}
+
+form {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+form button {
+  background: #dc3545;  
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form button:hover {
+  background: #a71d2a;
+}
+
+a {
+  text-decoration: none;
+  color: #6a5acd;
+}
+
+a:hover {
+  text-decoration: underline;
+}
